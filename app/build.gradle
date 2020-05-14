@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId 'YOUR_APP_PKG_NAME'
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 1
+        versionName '1.0'
+        multiDexEnabled true
+        manifestPlaceholders = [onesignal_app_id: "YOUR_ONE_SIGNAL_APP_ID", onesignal_google_project_number: "REMOTE"]
+
+    }
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+    }
+    buildTypes {
+        debug {
+
+            debuggable true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+    aaptOptions {
+        cruncherEnabled = false
+    }
+    productFlavors {
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:preference-v7:28.0.0'
+    implementation 'com.android.support:preference-v14:28.0.0'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    // Retrofit Scalars Converter
+    implementation 'com.squareup.retrofit2:converter-scalars:2.5.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.bogdwellers:pinchtozoom:0.1'
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+    implementation 'com.crystal:crystalrangeseekbar:1.1.1'
+    implementation 'com.github.apl-devs:appintro:v4.2.3'
+    implementation 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1'
+    //Payment Methods
+    implementation 'com.stripe:stripe-android:2.0.2'
+    implementation 'com.braintreepayments:card-form:3.5.1'
+    implementation 'com.braintreepayments.api:drop-in:3.7.1'
+    implementation 'com.braintreepayments.api:braintree:2.22.0'
+    implementation 'com.paypal.sdk:paypal-android-sdk:2.16.0'
+
+    implementation 'com.onesignal:OneSignal:3.10.6'
+
+    //other support Dependencies
+    implementation 'com.github.cooltechworks:ScratchView:v1.1'
+
+    // Firebase Dependencies
+    implementation 'com.google.firebase:firebase-ads:17.2.0'
+    implementation 'com.google.firebase:firebase-auth:16.2.0'
+    implementation 'com.google.firebase:firebase-auth:16.2.0'
+    implementation 'com.google.firebase:firebase-messaging:17.4.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.google.firebase:firebase-invites:16.1.1'
+
+    // Volley SDK
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+
+    /*Facebook SDK*/
+    implementation 'com.facebook.android:facebook-android-sdk:4.+'
+
+    //Branch.io for deep linking
+    implementation 'io.branch.sdk.android:library:2.+'
+}
+
+apply plugin: 'com.google.gms.google-services'

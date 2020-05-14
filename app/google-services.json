@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "1005134378425",
+    "firebase_url": "https://androidwoocommerce.firebaseio.com",
+    "project_id": "androidwoocommerce",
+    "storage_bucket": "androidwoocommerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005134378425:android:1e9616abd6e5287b",
+        "android_client_info": {
+          "package_name": "com.vectorcoder.androidecommerce.demo20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005134378425-5qhdgaqh5khpb0tpfe5s6qf7h5qdj0i4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vectorcoder.androidecommerce.demo20",
+            "certificate_hash": "cc1f423bba10b76e866d69149f5d9ee43f366b95"
+          }
+        },
+        {
+          "client_id": "1005134378425-hugilmvs2kvep44qkit1eecfmctk8neu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHWp4owQZ9CHXgcs8PX6RqYbvNs7NufEM"
+        },
+        {
+          "current_key": "AIzaSyC3fT97rc1E8K48ScHMted92gu3f1r0EiI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005134378425-hugilmvs2kvep44qkit1eecfmctk8neu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005134378425:android:3035ddece2894405",
+        "android_client_info": {
+          "package_name": "com.vectorcoder.androidwoocommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005134378425-tcburivmsv5tv3svqq5pvqm3g2uoq0qo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vectorcoder.androidwoocommerce",
+            "certificate_hash": "cc1f423bba10b76e866d69149f5d9ee43f366b95"
+          }
+        },
+        {
+          "client_id": "1005134378425-i5ja66ck5j7n9aj7mo1l0bjn0fqfr9ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vectorcoder.androidwoocommerce",
+            "certificate_hash": "5933913b7f927f1d05e2377c398a87d73a64fdd9"
+          }
+        },
+        {
+          "client_id": "1005134378425-h7pbjfr558o5545lfh40mjjifduc1t03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vectorcoder.androidwoocommerce",
+            "certificate_hash": "54ea377f0ce36b197fa024d293e1bb8d87cd4f51"
+          }
+        },
+        {
+          "client_id": "1005134378425-hugilmvs2kvep44qkit1eecfmctk8neu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHWp4owQZ9CHXgcs8PX6RqYbvNs7NufEM"
+        },
+        {
+          "current_key": "AIzaSyC3fT97rc1E8K48ScHMted92gu3f1r0EiI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005134378425-hugilmvs2kvep44qkit1eecfmctk8neu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
